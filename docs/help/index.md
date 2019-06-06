@@ -2,9 +2,9 @@
 
 ### Contents
 
-  * [About this Guide](http://nokia.github.io/RED/help/about.md)
+  * [About this Guide](https://olus202.github.io/RED/help/about.md)
   * [Legal](http://nokia.github.io/RED/help/legal.md)
-  * [RED key shortcuts cheatsheet](http://nokia.github.io/RED/help/keys.md)
+  * [RED key shortcuts cheatsheet](https://olus202.github.io/RED/help/keys.md)
   * [First steps with RED](http://nokia.github.io/RED/help/first_steps/first_steps.md)
     * [Download and install](http://nokia.github.io/RED/help/first_steps/download_install.md)
     * [Eclipse principles](http://nokia.github.io/RED/help/first_steps/eclipse_principles.md)
