@@ -4,4 +4,4 @@ theme: jekyll-theme-slate
 title: RED - Robot Editor
 description: Eclipse based editor for RobotFramework testcases
 show_downloads: false
-redirect_from: "http://nokia.github.io/red/"
+redirect_from: "http://olus202.github.io/red/"
