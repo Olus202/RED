@@ -1,34 +1,3 @@
-<html>
-<head>
-<link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
-<style>
-        table {
-            border-collapse: collapse ;
-            width: auto;
-        }
-
-        tr {
-            border: 1px solid #ccc ;
-            border-left: none;
-            border-right: none;
-            }
-        
-        th {
-            text-align: left ;    
-
-        }
-        table tbody td {
-            border:none !important;
-
-            }
-        table   {
-            border-left: none; 
-            border-right: none;
-            }
-        
-    </style>
-</head>
-<body>
 <a href="http://nokia.github.io/RED/help/index.html">RED - Robot Editor User Guide</a> &gt; 
 
 	<h2>Useful RED key shortcuts</h2>
@@ -63,5 +32,3 @@
 <tr><td><kbd>Ctrl+PLUS</kbd> </td><td><p><b>Zoom In in source editor.<b></b></b></p> </td></tr>
 <tr><td><kbd>Ctrl+MINUS</kbd> </td><td><p><b>Zoom Out in source editor.<b></b></b></p> </td></tr>
 </table>
-</body>
-</html>
