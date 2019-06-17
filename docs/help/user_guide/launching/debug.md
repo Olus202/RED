@@ -1,6 +1,6 @@
-[RED - Robot Editor User Guide](http://nokia.github.io/RED/help/index.md) >
-[User guide](http://nokia.github.io/RED/help/user_guide/user_guide.md) >
-[Launching Tests](http://nokia.github.io/RED/help/user_guide/launching.md) >
+[RED - Robot Editor User Guide](index.md) > [User
+guide](user_guide/user_guide.md) > [Launching
+Tests](user_guide/launching.md) >
 
 ## Debugging Robot
 
@@ -69,9 +69,9 @@ dialog and choose which cases should be executed:
 
 ### Contents
 
-  * [User interface](http://nokia.github.io/RED/help/user_guide/launching/debug/ui_elements.md)
-  * [Breakpoints](http://nokia.github.io/RED/help/user_guide/launching/debug/breakpoints.md)
-  * [Hitting a breakpoint](http://nokia.github.io/RED/help/user_guide/launching/debug/hitting_a_breakpoint.md)
-  * [Debugger preferences](http://nokia.github.io/RED/help/user_guide/launching/debug/preferences.md)
-  * [Debugging Robot & Python with RED & PyDev](http://nokia.github.io/RED/help/user_guide/launching/debug/robot_python_debug.md)
+  * [User interface](user_guide/launching/debug/ui_elements.md)
+  * [Breakpoints](user_guide/launching/debug/breakpoints.md)
+  * [Hitting a breakpoint](user_guide/launching/debug/hitting_a_breakpoint.md)
+  * [Debugger preferences](user_guide/launching/debug/preferences.md)
+  * [Debugging Robot & Python with RED & PyDev](user_guide/launching/debug/robot_python_debug.md)
 

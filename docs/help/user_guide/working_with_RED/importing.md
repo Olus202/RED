@@ -1,7 +1,6 @@
-[RED - Robot Editor User Guide](http://nokia.github.io/RED/help/index.md) >
-[User guide](http://nokia.github.io/RED/help/user_guide/user_guide.md) >
-[Working with
-RED](http://nokia.github.io/RED/help/user_guide/working_with_RED.md) >
+[RED - Robot Editor User Guide](index.md) > [User
+guide](user_guide/user_guide.md) > [Working with
+RED](user_guide/working_with_RED.md) >
 
 ## Different ways of importing files to project and workspace
 

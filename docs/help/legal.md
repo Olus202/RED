@@ -1,4 +1,4 @@
-[RED - Robot Editor User Guide](http://nokia.github.io/RED/help/index.md) >
+[RED - Robot Editor User Guide](index.md) >
 
 ## License
 

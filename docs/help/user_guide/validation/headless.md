@@ -1,6 +1,6 @@
-[RED - Robot Editor User Guide](http://nokia.github.io/RED/help/index.md) >
-[User guide](http://nokia.github.io/RED/help/user_guide/user_guide.md) >
-[Validation](http://nokia.github.io/RED/help/user_guide/validation.md) >
+[RED - Robot Editor User Guide](index.md) > [User
+guide](user_guide/user_guide.md) > [Validation](user_guide/validation.md)
+>
 
 ## Running validation in command line
 

@@ -1,5 +1,5 @@
-[RED - Robot Editor User Guide](http://nokia.github.io/RED/help/index.md) >
-[User guide](http://nokia.github.io/RED/help/user_guide/user_guide.md) >
+[RED - Robot Editor User Guide](index.md) > [User
+guide](user_guide/user_guide.md) >
 
 ## Integration with other tools
 
@@ -9,9 +9,9 @@ integrating RED with some non-trivial tools
 
 ### Contents
 
-  * [Mounting folders via SSH](http://nokia.github.io/RED/help/user_guide/tools_integration/virtual_folders.md)
-  * [PyDev and PyLint](http://nokia.github.io/RED/help/user_guide/tools_integration/red_pylint.md)
-  * [Robot Framework Maven plugin](http://nokia.github.io/RED/help/user_guide/tools_integration/maven.md)
-  * [Running tests using Gradle](http://nokia.github.io/RED/help/user_guide/tools_integration/gradle.md)
-  * [Robot Framework Lint](http://nokia.github.io/RED/help/user_guide/tools_integration/rflint.md)
+  * [Mounting folders via SSH](user_guide/tools_integration/virtual_folders.md)
+  * [PyDev and PyLint](user_guide/tools_integration/red_pylint.md)
+  * [Robot Framework Maven plugin](user_guide/tools_integration/maven.md)
+  * [Running tests using Gradle](user_guide/tools_integration/gradle.md)
+  * [Robot Framework Lint](user_guide/tools_integration/rflint.md)
 

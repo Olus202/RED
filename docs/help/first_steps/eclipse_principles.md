@@ -1,6 +1,5 @@
-[RED - Robot Editor User Guide](http://nokia.github.io/RED/help/index.md) >
-[First steps with
-RED](http://nokia.github.io/RED/help/first_steps/first_steps.md) >
+[RED - Robot Editor User Guide](index.md) > [First steps with
+RED](first_steps/first_steps.md) >
 
 ## Eclipse principles
 

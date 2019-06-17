@@ -1,5 +1,5 @@
-[RED - Robot Editor User Guide](http://nokia.github.io/RED/help/index.md) >
-[User guide](http://nokia.github.io/RED/help/user_guide/user_guide.md) >
+[RED - Robot Editor User Guide](index.md) > [User
+guide](user_guide/user_guide.md) >
 
 ## Validation
 
@@ -40,8 +40,8 @@ Validation as command line tool (without GUI, headless) is covered under topic
 
 ### Contents
 
-  * [Limiting validation scope](http://nokia.github.io/RED/help/user_guide/validation/scope.md)
-  * [Configuring problems severity](http://nokia.github.io/RED/help/user_guide/validation/validation_preferences.md)
-  * [Running validation in command line](http://nokia.github.io/RED/help/user_guide/validation/headless.md)
-  * [Tasks/TODO](http://nokia.github.io/RED/help/user_guide/validation/tasks.md)
+  * [Limiting validation scope](user_guide/validation/scope.md)
+  * [Configuring problems severity](user_guide/validation/validation_preferences.md)
+  * [Running validation in command line](user_guide/validation/headless.md)
+  * [Tasks/TODO](user_guide/validation/tasks.md)
 

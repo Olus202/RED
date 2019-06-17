@@ -1,8 +1,7 @@
-[RED - Robot Editor User Guide](http://nokia.github.io/RED/help/index.md) >
-[User guide](http://nokia.github.io/RED/help/user_guide/user_guide.md) >
-[Launching Tests](http://nokia.github.io/RED/help/user_guide/launching.md) >
-[Debugging
-Robot](http://nokia.github.io/RED/help/user_guide/launching/debug.md) >
+[RED - Robot Editor User Guide](index.md) > [User
+guide](user_guide/user_guide.md) > [Launching
+Tests](user_guide/launching.md) > [Debugging
+Robot](user_guide/launching/debug.md) >
 
 ## User interface
 

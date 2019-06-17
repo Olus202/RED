@@ -1,5 +1,5 @@
-[RED - Robot Editor User Guide](http://nokia.github.io/RED/help/index.md) >
-[User guide](http://nokia.github.io/RED/help/user_guide/user_guide.md) >
+[RED - Robot Editor User Guide](index.md) > [User
+guide](user_guide/user_guide.md) >
 
 ## Launching Tests
 
@@ -48,18 +48,18 @@ if user run tests with agent | Only if user run tests with agent
   
 ### Contents
 
-  * [User interface](http://nokia.github.io/RED/help/user_guide/launching/ui_elements.md)
-  * [Local launches](http://nokia.github.io/RED/help/user_guide/launching/local_launch.md)
-  * [Local launches scripting](http://nokia.github.io/RED/help/user_guide/launching/local_launch_scripting.md)
-  * [Remote launches](http://nokia.github.io/RED/help/user_guide/launching/remote_launch.md)
-  * [Parameterizing launches](http://nokia.github.io/RED/help/user_guide/launching/string_substitution.md)
-  * [Controlling execution](http://nokia.github.io/RED/help/user_guide/launching/exec_control.md)
-  * [Debugging Robot](http://nokia.github.io/RED/help/user_guide/launching/debug.md)
-    * [User interface](http://nokia.github.io/RED/help/user_guide/launching/debug/ui_elements.md)
-    * [Breakpoints](http://nokia.github.io/RED/help/user_guide/launching/debug/breakpoints.md)
-    * [Hitting a breakpoint](http://nokia.github.io/RED/help/user_guide/launching/debug/hitting_a_breakpoint.md)
-    * [Debugger preferences](http://nokia.github.io/RED/help/user_guide/launching/debug/preferences.md)
-    * [Debugging Robot & Python with RED & PyDev](http://nokia.github.io/RED/help/user_guide/launching/debug/robot_python_debug.md)
-  * [Launching preferences](http://nokia.github.io/RED/help/user_guide/launching/launch_prefs.md)
-  * [RED Tests Runner Agent](http://nokia.github.io/RED/help/user_guide/launching/red_agent.md)
+  * [User interface](user_guide/launching/ui_elements.md)
+  * [Local launches](user_guide/launching/local_launch.md)
+  * [Local launches scripting](user_guide/launching/local_launch_scripting.md)
+  * [Remote launches](user_guide/launching/remote_launch.md)
+  * [Parameterizing launches](user_guide/launching/string_substitution.md)
+  * [Controlling execution](user_guide/launching/exec_control.md)
+  * [Debugging Robot](user_guide/launching/debug.md)
+    * [User interface](user_guide/launching/debug/ui_elements.md)
+    * [Breakpoints](user_guide/launching/debug/breakpoints.md)
+    * [Hitting a breakpoint](user_guide/launching/debug/hitting_a_breakpoint.md)
+    * [Debugger preferences](user_guide/launching/debug/preferences.md)
+    * [Debugging Robot & Python with RED & PyDev](user_guide/launching/debug/robot_python_debug.md)
+  * [Launching preferences](user_guide/launching/launch_prefs.md)
+  * [RED Tests Runner Agent](user_guide/launching/red_agent.md)
 

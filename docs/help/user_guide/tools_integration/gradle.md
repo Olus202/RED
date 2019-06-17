@@ -1,7 +1,6 @@
-[RED - Robot Editor User Guide](http://nokia.github.io/RED/help/index.md) >
-[User guide](http://nokia.github.io/RED/help/user_guide/user_guide.md) >
-[Integration with other
-tools](http://nokia.github.io/RED/help/user_guide/tools_integration.md) >
+[RED - Robot Editor User Guide](index.md) > [User
+guide](user_guide/user_guide.md) > [Integration with other
+tools](user_guide/tools_integration.md) >
 
 ## Running tests using Gradle
 
