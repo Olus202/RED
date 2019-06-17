@@ -17,7 +17,7 @@ Update Site: Click Help -> Install New Software -> Add and set address in Locati
 ```http://master.dl.sourceforge.net/project/red-robot-editor/repository```
 
 ## RED Help
-[RED Robot Editor's application help](http://nokia.github.io/RED/help/)
+[RED Robot Editor's application help](http://polusaleksandra.github.io/RED/help/)
 
 ## What RED provides:
 * text editor with validation and code coloring
