@@ -12,15 +12,15 @@
 	</p>
 <h3>Contents</h3>
 <ul>
-<li><a href="first_steps/download_install.html">Download and install</a>
+<li><a href="download_install.html">Download and install</a>
 </li>
-<li><a href="first_steps/eclipse_principles.html">Eclipse principles</a>
+<li><a href="eclipse_principles.html">Eclipse principles</a>
 </li>
-<li><a href="first_steps/setting_up_environment.html">Setting up environment</a>
+<li><a href="setting_up_environment.html">Setting up environment</a>
 </li>
-<li><a href="first_steps/create_run.html">Create project, add test and run</a>
+<li><a href="create_run.html">Create project, add test and run</a>
 </li>
-<li><a href="first_steps/preferences_misc.html">Preferences and red.xml</a>
+<li><a href="preferences_misc.html">Preferences and red.xml</a>
 </li>
 </ul>
 </body>

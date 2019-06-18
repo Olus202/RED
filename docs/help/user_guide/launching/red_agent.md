@@ -3,7 +3,7 @@
 <link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href="index.html">RED - Robot Editor User Guide</a> &gt; <a href="user_guide/user_guide.html">User guide</a> &gt; <a href="user_guide/launching.html">Launching Tests</a> &gt; 
+<a href="index.html">RED - Robot Editor User Guide</a> &gt; <a href="user_guide.html">User guide</a> &gt; <a href="..\launching.html">Launching Tests</a> &gt; 
 	<h2>RED Agent</h2>
 <p>RED Tests Runner Agent is something of which you should be aware if you're planning 
 	to <a href="remote_launch.html">launch tests using remote configuration</a> or if you're 
