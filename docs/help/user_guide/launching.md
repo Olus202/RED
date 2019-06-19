@@ -3,7 +3,7 @@
 <link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href="..\..\index.html">RED - Robot Editor User Guide</a> &gt; <a href="..\user_guide.html">User guide</a> &gt; 
+<a href="/help/..\..\index.html">RED - Robot Editor User Guide</a> &gt; <a href="/help/..\user_guide.html">User guide</a> &gt; 
 	<h2>Launching Tests</h2>
 <p>With RED it is possible to launch Robot Framework tests in 2 modes (<b>run</b> or <b>debug</b>)
 	in conjunction with 2 types of configurations: (<b>local</b> or <b>remote</b>). Furthermore local 
@@ -83,34 +83,34 @@
 </table>
 <h3>Contents</h3>
 <ul>
-<li><a href="..\launching\ui_elements.html">User interface</a>
+<li><a href="/help/..\launching\ui_elements.html">User interface</a>
 </li>
-<li><a href="..\launching\local_launch.html">Local launches</a>
+<li><a href="/help/..\launching\local_launch.html">Local launches</a>
 </li>
-<li><a href="..\launching\local_launch_scripting.html">Local launches scripting</a>
+<li><a href="/help/..\launching\local_launch_scripting.html">Local launches scripting</a>
 </li>
-<li><a href="..\launching\remote_launch.html">Remote launches</a>
+<li><a href="/help/..\launching\remote_launch.html">Remote launches</a>
 </li>
-<li><a href="..\launching\string_substitution.html">Parameterizing launches</a>
+<li><a href="/help/..\launching\string_substitution.html">Parameterizing launches</a>
 </li>
-<li><a href="..\launching\exec_control.html">Controlling execution</a>
+<li><a href="/help/..\launching\exec_control.html">Controlling execution</a>
 </li>
-<li><a href="..\launching\debug.html">Debugging Robot</a>
+<li><a href="/help/..\launching\debug.html">Debugging Robot</a>
 <ul>
-<li><a href="..\launching\debug\ui_elements.html">User interface</a>
+<li><a href="/help/..\launching\debug\ui_elements.html">User interface</a>
 </li>
-<li><a href="..\launching\debug\breakpoints.html">Breakpoints</a>
+<li><a href="/help/..\launching\debug\breakpoints.html">Breakpoints</a>
 </li>
-<li><a href="..\launching\debug\hitting_a_breakpoint.html">Hitting a breakpoint</a>
+<li><a href="/help/..\launching\debug\hitting_a_breakpoint.html">Hitting a breakpoint</a>
 </li>
-<li><a href="..\launching\debug\preferences.html">Debugger preferences</a>
+<li><a href="/help/..\launching\debug\preferences.html">Debugger preferences</a>
 </li>
-<li><a href="..\launching\debug\robot_python_debug.html">Debugging Robot &amp; Python with RED &amp; PyDev</a>
+<li><a href="/help/..\launching\debug\robot_python_debug.html">Debugging Robot &amp; Python with RED &amp; PyDev</a>
 </li>
 </ul></li>
-<li><a href="..\launching\launch_prefs.html">Launching preferences</a>
+<li><a href="/help/..\launching\launch_prefs.html">Launching preferences</a>
 </li>
-<li><a href="..\launching\red_agent.html">RED Tests Runner Agent</a>
+<li><a href="/help/..\launching\red_agent.html">RED Tests Runner Agent</a>
 </li>
 </ul>
 </body>
