@@ -3,7 +3,7 @@
 <link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href="index.html">RED - Robot Editor User Guide</a> &gt; <a href="user_guide.html">User guide</a> &gt; <a href="..\launching.html">Launching Tests</a> &gt; <a href="..\debug.html">Debugging Robot</a> &gt; 
+<a href="..\..\..\..\index.html">RED - Robot Editor User Guide</a> &gt; <a href="..\..\..\user_guide.html">User guide</a> &gt; <a href="..\..\..\launching.html">Launching Tests</a> &gt; <a href="..\..\debug.html">Debugging Robot</a> &gt; 
 	<h2>Breakpoints</h2>
 <p>List of all breakpoints is displayed in <b>Breakpoints</b> view of Debug perspective.
 	This view can be used to view and edit breakpoints even without any debugging session currently launched.

@@ -3,7 +3,7 @@
 <link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href="index.html">RED - Robot Editor User Guide</a> &gt; <a href="user_guide.html">User guide</a> &gt; <a href="..\launching.html">Launching Tests</a> &gt; 
+<a href="..\..\..\index.html">RED - Robot Editor User Guide</a> &gt; <a href="..\..\user_guide.html">User guide</a> &gt; <a href="..\..\launching.html">Launching Tests</a> &gt; 
 	<h2>Locally launched tests using own scripts</h2>
 <p>The <b>Robot</b> launch configurations may be called through some user-defined executable/script. 
 	This may be useful when integrating tests launches from RED with other tools like PyDev for 
