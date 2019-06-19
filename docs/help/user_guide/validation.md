@@ -3,7 +3,7 @@
 <link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href="/help/..\..\index.html">RED - Robot Editor User Guide</a> &gt; <a href="/help/..\user_guide.html">User guide</a> &gt; 
+<a href="..\index.html">RED - Robot Editor User Guide</a> &gt; <a href="user_guide.html">User guide</a> &gt; 
 <h2>Validation</h2>
 <h3>General information</h3>
 <p>Validation is a mechanism to read and parse Robot test cases in order to provide feedback about Robot defined
@@ -30,13 +30,13 @@ about potential problems.
 <p>Validation as command line tool (without GUI, headless) is covered under topic <a href="validation/headless.html">Running validation in command line</a></p>
 <h3>Contents</h3>
 <ul>
-<li><a href="/help/..\validation\scope.html">Limiting validation scope</a>
+<li><a href="validation\scope.html">Limiting validation scope</a>
 </li>
-<li><a href="/help/..\validation\validation_preferences.html">Configuring problems severity</a>
+<li><a href="validation\validation_preferences.html">Configuring problems severity</a>
 </li>
-<li><a href="/help/..\validation\headless.html">Running validation in command line</a>
+<li><a href="validation\headless.html">Running validation in command line</a>
 </li>
-<li><a href="/help/..\validation\tasks.html">Tasks/TODO</a>
+<li><a href="validation\tasks.html">Tasks/TODO</a>
 </li>
 </ul>
 </body>

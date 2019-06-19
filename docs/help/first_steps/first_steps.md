@@ -3,7 +3,7 @@
 <link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href="/help/..\..\index.html">RED - Robot Editor User Guide</a> &gt; 
+<a href="..\index.html">RED - Robot Editor User Guide</a> &gt; 
 	
 	<h2>First steps with RED</h2>
 <p>Material is intended to provide introduction with RED usage for users not experienced with 
@@ -12,15 +12,15 @@
 	</p>
 <h3>Contents</h3>
 <ul>
-<li><a href="/help/..\download_install.html">Download and install</a>
+<li><a href="download_install.html">Download and install</a>
 </li>
-<li><a href="/help/..\eclipse_principles.html">Eclipse principles</a>
+<li><a href="eclipse_principles.html">Eclipse principles</a>
 </li>
-<li><a href="/help/..\setting_up_environment.html">Setting up environment</a>
+<li><a href="setting_up_environment.html">Setting up environment</a>
 </li>
-<li><a href="/help/..\create_run.html">Create project, add test and run</a>
+<li><a href="create_run.html">Create project, add test and run</a>
 </li>
-<li><a href="/help/..\preferences_misc.html">Preferences and red.xml</a>
+<li><a href="preferences_misc.html">Preferences and red.xml</a>
 </li>
 </ul>
 </body>

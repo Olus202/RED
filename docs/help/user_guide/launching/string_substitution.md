@@ -3,7 +3,7 @@
 <link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href="/help/..\..\..\index.html">RED - Robot Editor User Guide</a> &gt; <a href="/help/..\..\user_guide.html">User guide</a> &gt; <a href="/help/..\..\launching.html">Launching Tests</a> &gt; 
+<a href="..\..\index.html">RED - Robot Editor User Guide</a> &gt; <a href="..\user_guide.html">User guide</a> &gt; <a href="..\launching.html">Launching Tests</a> &gt; 
 	<h2>Parameterizing launches</h2>
 <p>Eclipse string substitution feature allows using built-in or custom variables in different places - for example
 	in launch configurations where they are resolved and replaced with their values prior to launch.

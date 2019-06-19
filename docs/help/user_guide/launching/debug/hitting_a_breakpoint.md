@@ -3,7 +3,7 @@
 <link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href="/help/..\..\..\..\index.html">RED - Robot Editor User Guide</a> &gt; <a href="/help/..\..\..\user_guide.html">User guide</a> &gt; <a href="/help/..\..\..\launching.html">Launching Tests</a> &gt; <a href="/help/..\..\debug.html">Debugging Robot</a> &gt; 
+<a href="..\..\..\index.html">RED - Robot Editor User Guide</a> &gt; <a href="..\..\user_guide.html">User guide</a> &gt; <a href="..\..\launching.html">Launching Tests</a> &gt; <a href="..\debug.html">Debugging Robot</a> &gt; 
 	<h2>Hitting a breakpoint during debug execution</h2>
 <p>Whenever debugger suspends the execution there are many useful informations presented to user as well as new
 	opportunities to influence the running tests appear. First of all the toolbar buttons gets activated:
