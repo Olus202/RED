@@ -1,5 +1,5 @@
-[RED - Robot Editor User Guide](..\\..\\) > [First steps with
-RED](..\\first_steps.md) >
+[RED - Robot Editor User Guide](..\\index.md) > [First steps with
+RED](first_steps.md) >
 
 ## Establishing environment
 

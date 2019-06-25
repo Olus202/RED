@@ -1,5 +1,5 @@
-[RED - Robot Editor User Guide](..\\..\\) > [User guide](..\\user_guide.md)
->
+[RED - Robot Editor User Guide](..\\index.md) > [User
+guide](user_guide.md) >
 
 ## Launching Tests
 
@@ -48,18 +48,18 @@ if user run tests with agent | Only if user run tests with agent
   
 ### Contents
 
-  * [User interface](..\\launching\\ui_elements.md)
-  * [Local launches](..\\launching\\local_launch.md)
-  * [Local launches scripting](..\\launching\\local_launch_scripting.md)
-  * [Remote launches](..\\launching\\remote_launch.md)
-  * [Parameterizing launches](..\\launching\\string_substitution.md)
-  * [Controlling execution](..\\launching\\exec_control.md)
-  * [Debugging Robot](..\\launching\\debug.md)
-    * [User interface](..\\launching\\debug\\ui_elements.md)
-    * [Breakpoints](..\\launching\\debug\\breakpoints.md)
-    * [Hitting a breakpoint](..\\launching\\debug\\hitting_a_breakpoint.md)
-    * [Debugger preferences](..\\launching\\debug\\preferences.md)
-    * [Debugging Robot & Python with RED & PyDev](..\\launching\\debug\\robot_python_debug.md)
-  * [Launching preferences](..\\launching\\launch_prefs.md)
-  * [RED Tests Runner Agent](..\\launching\\red_agent.md)
+  * [User interface](launching\\ui_elements.md)
+  * [Local launches](launching\\local_launch.md)
+  * [Local launches scripting](launching\\local_launch_scripting.md)
+  * [Remote launches](launching\\remote_launch.md)
+  * [Parameterizing launches](launching\\string_substitution.md)
+  * [Controlling execution](launching\\exec_control.md)
+  * [Debugging Robot](launching\\debug.md)
+    * [User interface](launching\\debug\\ui_elements.md)
+    * [Breakpoints](launching\\debug\\breakpoints.md)
+    * [Hitting a breakpoint](launching\\debug\\hitting_a_breakpoint.md)
+    * [Debugger preferences](launching\\debug\\preferences.md)
+    * [Debugging Robot & Python with RED & PyDev](launching\\debug\\robot_python_debug.md)
+  * [Launching preferences](launching\\launch_prefs.md)
+  * [RED Tests Runner Agent](launching\\red_agent.md)
 

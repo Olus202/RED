@@ -1,4 +1,4 @@
-[RED - Robot Editor User Guide](..\\) >
+[RED - Robot Editor User Guide](index.md) >
 
 ## Useful RED key shortcuts
 

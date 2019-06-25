@@ -1,5 +1,5 @@
-[RED - Robot Editor User Guide](..\\..\\..\\) > [User
-guide](..\\..\\user_guide.md) > [Validation](..\\..\\validation.md) >
+[RED - Robot Editor User Guide](..\\..\\index.md) > [User
+guide](..\\user_guide.md) > [Validation](..\\validation.md) >
 
 ## Detecting tasks/TODO defined in comments
 

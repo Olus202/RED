@@ -1,6 +1,6 @@
-[RED - Robot Editor User Guide](..\\..\\..\\..\\) > [User
-guide](..\\..\\..\\user_guide.md) > [Launching
-Tests](..\\..\\..\\launching.md) > [Debugging Robot](..\\..\\debug.md) >
+[RED - Robot Editor User Guide](..\\..\\..\\index.md) > [User
+guide](..\\..\\user_guide.md) > [Launching Tests](..\\..\\launching.md) >
+[Debugging Robot](..\\debug.md) >
 
 ## Debugger preferences
 
