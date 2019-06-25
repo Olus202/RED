@@ -1,4 +1,5 @@
-[RED - Robot Editor User Guide](..\\) > [User guide](user_guide.md) >
+[RED - Robot Editor User Guide](..\\..\\) > [User guide](..\\user_guide.md)
+>
 
 ## Quick start with RED - Robot Editor
 

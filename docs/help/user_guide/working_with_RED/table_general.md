@@ -1,5 +1,6 @@
-[RED - Robot Editor User Guide](..\\..\\) > [User guide](..\\user_guide.md)
-> [Working with RED](..\\working_with_RED.md) >
+[RED - Robot Editor User Guide](..\\..\\..\\) > [User
+guide](..\\..\\user_guide.md) > [Working with
+RED](..\\..\\working_with_RED.md) >
 
 ## Table Editors - general usage hints
 

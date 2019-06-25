@@ -1,5 +1,6 @@
-[RED - Robot Editor User Guide](..\\..\\) > [User guide](..\\user_guide.md)
-> [Integration with other tools](..\\tools_integration.md) >
+[RED - Robot Editor User Guide](..\\..\\..\\) > [User
+guide](..\\..\\user_guide.md) > [Integration with other
+tools](..\\..\\tools_integration.md) >
 
 ## Robot Framework Lint analysis
 

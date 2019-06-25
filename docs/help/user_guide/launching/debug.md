@@ -1,5 +1,5 @@
-[RED - Robot Editor User Guide](..\\..\\) > [User guide](..\\user_guide.md)
-> [Launching Tests](..\\launching.md) >
+[RED - Robot Editor User Guide](..\\..\\..\\) > [User
+guide](..\\..\\user_guide.md) > [Launching Tests](..\\..\\launching.md) >
 
 ## Debugging Robot
 
@@ -68,9 +68,9 @@ dialog and choose which cases should be executed:
 
 ### Contents
 
-  * [User interface](debug\\ui_elements.md)
-  * [Breakpoints](debug\\breakpoints.md)
-  * [Hitting a breakpoint](debug\\hitting_a_breakpoint.md)
-  * [Debugger preferences](debug\\preferences.md)
-  * [Debugging Robot & Python with RED & PyDev](debug\\robot_python_debug.md)
+  * [User interface](..\\debug\\ui_elements.md)
+  * [Breakpoints](..\\debug\\breakpoints.md)
+  * [Hitting a breakpoint](..\\debug\\hitting_a_breakpoint.md)
+  * [Debugger preferences](..\\debug\\preferences.md)
+  * [Debugging Robot & Python with RED & PyDev](..\\debug\\robot_python_debug.md)
 
