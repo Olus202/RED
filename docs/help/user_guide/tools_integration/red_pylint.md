@@ -1,6 +1,5 @@
-[RED - Robot Editor User Guide](..\\..\\index.md) > [User
-guide](..\\user_guide.md) > [Integration with other
-tools](..\\tools_integration.md) >
+[RED - Robot Editor User Guide](..\\..\\) > [User guide](..\\user_guide.md)
+> [Integration with other tools](..\\tools_integration.md) >
 
 ## PyDev and PyLint
 
