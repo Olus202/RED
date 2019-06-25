@@ -1,4 +1,4 @@
-[RED - Robot Editor User Guide](..\\index.md) > [User
+[RED - Robot Editor User Guide](../index.md) > [User
 guide](user_guide.md) >
 
 ## Working with RED
@@ -10,8 +10,8 @@ and workflow connected with creating and editing robot testcases.
 
 ### Contents
 
-  * [Table Editors - general usage hints](working_with_red\\table_general.md)
-  * [Variable typing in editors](working_with_red\\variable_typing.md)
+  * [Table Editors - general usage hints](working_with_red/table_general.md)
+  * [Variable typing in editors](working_with_red/variable_typing.md)
   * [Recognizing external libraries in RED](working_with_red\\libs.md)
   * [Variable mapping - dealing with parameterized paths to libraries and resources](working_with_red\\variable_mapping.md)
   * [Variable Files - using files with variable accessible anywhere inside Project](working_with_red\\variable_files.md)
