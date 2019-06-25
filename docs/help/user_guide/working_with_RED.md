@@ -10,11 +10,11 @@ and workflow connected with creating and editing robot testcases.
 
 ### Contents
 
-  * [Table Editors - general usage hints](working_with_red/table_general.md)
-  * [Variable typing in editors](working_with_red/variable_typing.md)
+  * [Table Editors - general usage hints](working_with_RED/table_general.md)
+  * [Variable typing in editors](working_with_RED/variable_typing.md)
   * [Recognizing external libraries in RED](working_with_red\\libs.md)
-  * [Variable mapping - dealing with parameterized paths to libraries and resources](working_with_red\\variable_mapping.md)
-  * [Variable Files - using files with variable accessible anywhere inside Project](working_with_red\\variable_files.md)
+  * [Variable mapping - dealing with parameterized paths to libraries and resources](working_with_RED\\variable_mapping.md)
+  * [Variable Files - using files with variable accessible anywhere inside Project](working_with_RED\\variable_files.md)
   * [Custom python/class paths and path relativeness](working_with_red\\custom_paths_relatve.md)
   * [Importing files and projects to workspace](working_with_red\\importing.md)
   * [Remote library](working_with_red\\remote_library.md)

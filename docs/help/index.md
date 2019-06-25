@@ -14,7 +14,7 @@
   * [User guide](user_guide\\user_guide.md)
     * [Quick start with RED - Robot Editor](user_guide\\quick_start.md)
     * [General usage hints](user_guide\\general.md)
-    * [Working with RED](user_guide\\working_with_red.md)
+    * [Working with RED](user_guide/working_with_RED.md)
       * [Table Editors - general usage hints](user_guide\\working_with_red\\table_general.md)
       * [Variable typing in editors](user_guide\\working_with_red\\variable_typing.md)
       * [Recognizing external libraries in RED](user_guide\\working_with_red\\libs.md)

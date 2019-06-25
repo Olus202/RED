@@ -9,7 +9,7 @@ already experienced with Eclipse platform.
 
   * [Quick start with RED - Robot Editor](quick_start.md)
   * [General usage hints](general.md)
-  * [Working with RED](working_with_red.md)
+  * [Working with RED](working_with_RED.md)
     * [Table Editors - general usage hints](working_with_red\\table_general.md)
     * [Variable typing in editors](working_with_red\\variable_typing.md)
     * [Recognizing external libraries in RED](working_with_red\\libs.md)
