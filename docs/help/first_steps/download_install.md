@@ -1,4 +1,4 @@
-[RED - Robot Editor User Guide](..\\index.md) > [First steps with
+[RED - Robot Editor User Guide](../index.md) > [First steps with
 RED](first_steps.md) >
 
 ## Download & install

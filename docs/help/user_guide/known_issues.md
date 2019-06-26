@@ -1,5 +1,5 @@
-[RED - Robot Editor User Guide](..\\index.md) > [User
-guide](user_guide.md) >
+[RED - Robot Editor User Guide](../index.md) > [User guide](user_guide.md)
+>
 
 ## Known issues and problems
 

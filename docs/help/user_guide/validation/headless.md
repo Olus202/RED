@@ -1,5 +1,5 @@
-[RED - Robot Editor User Guide](..\\..\\index.md) > [User
-guide](..\\user_guide.md) > [Validation](..\\validation.md) >
+[RED - Robot Editor User Guide](../../index.md) > [User
+guide](../user_guide.md) > [Validation](../validation.md) >
 
 ## Running validation in command line
 

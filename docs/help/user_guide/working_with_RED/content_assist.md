@@ -1,5 +1,5 @@
-[RED - Robot Editor User Guide](..\\..\\index.md) > [User
-guide](..\\user_guide.md) > [Working with RED](..\\working_with_RED.md) >
+[RED - Robot Editor User Guide](../../index.md) > [User
+guide](../user_guide.md) > [Working with RED](../working_with_RED.md) >
 
 ## Content assistance
 

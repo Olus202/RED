@@ -1,5 +1,5 @@
-[RED - Robot Editor User Guide](..\\index.md) > [User
-guide](user_guide.md) >
+[RED - Robot Editor User Guide](../index.md) > [User guide](user_guide.md)
+>
 
 ## Validation
 
@@ -40,8 +40,8 @@ Validation as command line tool (without GUI, headless) is covered under topic
 
 ### Contents
 
-  * [Limiting validation scope](validation\\scope.md)
-  * [Configuring problems severity](validation\\validation_preferences.md)
-  * [Running validation in command line](validation\\headless.md)
-  * [Tasks/TODO](validation\\tasks.md)
+  * [Limiting validation scope](validation/scope.md)
+  * [Configuring problems severity](validation/validation_preferences.md)
+  * [Running validation in command line](validation/headless.md)
+  * [Tasks/TODO](validation/tasks.md)
 
