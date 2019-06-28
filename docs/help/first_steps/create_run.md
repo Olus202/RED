@@ -28,12 +28,12 @@ Window -&gt; Perspective -&gt; Open Perspective -&gt; Other... -&gt; Robot</a></
 __Workspace__ stores all global Eclipse &amp; Red preferences. If it not set previously, Eclipse will show dialog to set path.
 
 User can always switch workspaces, and if necessary, perform projects import from locations outside of current workspace.
-Switching Workspace is done by menu action: __`` File -&gt; Switch Workspace ``__
+Switching Workspace is done by menu action: __`` File -\>; Switch Workspace ``__
 
 __Project__ is an equivalent to folder in OS, it stores files and settings relevant to a group of files.In order to work with RED, __Robot Project__ has to be created.  
 Creating new Project can be done by:
 
-*   __`` File -&gt; New -&gt; Robot Project ``__ (item can be found also under selection __`` New -&gt; Project... -&gt; Robot Framework -&gt; Robot Project ``__)
+*   __`` File -\>; New -\>; Robot Project ``__ (item can be found also under selection __`` New -&gt; Project... -&gt; Robot Framework -&gt; Robot Project ``__)
 *   Right click menu on Project Explorer with selection as above
 
 If you wish to import anything into Workspace (i.e. already existing Project) or into Project (existing test cases), menu _Import... _will open up wizard.Upon creating Project, you should have see similar structure in Project Explorer tree, which will also indicate that RobotFramework is visible to Eclipse.
