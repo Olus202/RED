@@ -3,7 +3,7 @@
 <link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href="../../index.html">RED - Robot Editor User Guide</a> &gt; <a href="../user_guide.html">User guide</a> &gt; <a href="../tools_integration.html">Integration with other tools</a> &gt; 
+<a href="../../../../help/index.html">RED - Robot Editor User Guide</a> &gt; <a href="../../../../help/user_guide/user_guide.html">User guide</a> &gt; <a href="../../../../help/user_guide/tools_integration.html">Integration with other tools</a> &gt; 
 	<h2>PyDev and PyLint</h2>
 <p>
 <a class="external" href="https://marketplace.eclipse.org/content/pydev-python-ide-eclipse" target="_blank">PyDev</a> and 
@@ -15,13 +15,13 @@
 <h3>PyDev installation</h3>
 <p>We recommend to install PyDev from Eclipse Marketplace:</p>
 <ul>
-<li>Open Eclipse Marketplace: <b><code>Help -&gt; Eclipse
+<li>Open Eclipse Marketplace: <b><code>Help -> Eclipse
 				Marketplace</code></b>,</li>
 <li>in Find field enter PyDev and proceed with installation
 			instructions,</li>
 <li>when prompted, restart Eclipse/RED Product,</li>
 <li>check PyDev preferences for python interpreters under <b><code>Windows
-				-&gt; Preferences -&gt; PyDev</code></b>.</li>
+				-> Preferences -> PyDev</code></b>.</li>
 </ul>
 <h3>Debugging tests with RED &amp; PyDev</h3>
 <p>It is possible to debug the tests together with python code using RED and PyDev. For detailed
@@ -42,10 +42,10 @@
 <li>enable PyLint,</li>
 <li>enable redirecting PyLint output to console,</li>
 <li>
-			provide proper PyLint executable paths in PyDev preferences: <b><code>Window -&gt; Preferences -&gt; PyDev -&gt; PyLint</code></b>,
+			provide proper PyLint executable paths in PyDev preferences: <b><code>Window -> Preferences -> PyDev -> PyLint</code></b>,
 		</li>
 <li>sometimes it is necessary to set folder with sources for
-			PyDev in Project properties: right click on <b><code>Project -&gt; PyDev -&gt; Set as Source Folder (add to PYTHONPATH)</code></b>,
+			PyDev in Project properties: right click on <b><code>Project -> PyDev -> Set as Source Folder (add to PYTHONPATH)</code></b>,
 		</li>
 <li>restart Eclipse/RED Product.</li>
 </ul>

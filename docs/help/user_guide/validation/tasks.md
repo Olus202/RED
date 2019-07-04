@@ -3,7 +3,7 @@
 <link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href="../../index.html">RED - Robot Editor User Guide</a> &gt; <a href="../user_guide.html">User guide</a> &gt; <a href="../validation.html">Validation</a> &gt; 
+<a href="../../../../help/index.html">RED - Robot Editor User Guide</a> &gt; <a href="../../../../help/user_guide/user_guide.html">User guide</a> &gt; <a href="../../../../help/user_guide/validation.html">Validation</a> &gt; 
 <h2>Detecting tasks/TODO defined in comments</h2>
 <p>It is a common practice to put notes in comments describing some kind of tasks which needs to be done
 in future. RED offers possibility to detect such tasks and overview them in single place. 
@@ -29,7 +29,7 @@ be specified in <a href="#prefs">preferences</a>.
 <p>Detected tasks are visible in RED in couple of places:</p>
 <ul>
 <li><b>Tasks</b> view - this view is similar to Problems view and displays all the tasks reported for files in whole
-  workspace (this view can be open from menu by choosing <b><code>Window -&gt; Show View -&gt; Other... -&gt; General -&gt; Tasks</code></b>),
+  workspace (this view can be open from menu by choosing <b><code>Window -> Show View -> Other... -> General -> Tasks</code></b>),
   </li>
 <li><b>Source</b> tab of editor - icon is visible in line where task is defined on left vertical ruler as well
   as small square on right overview vertical ruler,

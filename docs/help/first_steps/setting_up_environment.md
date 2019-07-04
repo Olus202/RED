@@ -3,7 +3,7 @@
 <link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href="../index.html">RED - Robot Editor User Guide</a> &gt; <a href="first_steps.html">First steps with RED</a> &gt; 
+<a href="../../../help/index.html">RED - Robot Editor User Guide</a> &gt; <a href="../../../help/first_steps/first_steps.html">First steps with RED</a> &gt; 
 
 <h2>Establishing environment</h2>
 <p>As mentioned <a href="download_install.html">earlier</a> RED requires Python interpreter with Robot Framework 
@@ -46,7 +46,7 @@ This only require that the path to one of those executables (Unix-like / Windows
 <h3>Manual environment configuration</h3>
 <p>It is possible to add environments manually in 
 <code><a class="command" href="javascript:executeCommand('org.eclipse.ui.window.preferences(preferencePageId=org.robotframework.ide.eclipse.main.plugin.preferences.installed)')">
-Window -&gt; Preferences -&gt; Robot Framework -&gt; Installed frameworks</a></code>. Simply use 
+Window -> Preferences -> Robot Framework -> Installed frameworks</a></code>. Simply use 
 <span class="block">Add...</span> button to open dialog in which the directory can be chosen. It should be the 
 directory which contains one of the executable files listed above. 
 </p>

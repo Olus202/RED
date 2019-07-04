@@ -3,7 +3,7 @@
 <link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href="../../index.html">RED - Robot Editor User Guide</a> &gt; <a href="../user_guide.html">User guide</a> &gt; <a href="../working_with_RED.html">Working with RED</a> &gt; 
+<a href="../../../../help/index.html">RED - Robot Editor User Guide</a> &gt; <a href="../../../../help/user_guide/user_guide.html">User guide</a> &gt; <a href="../../../../help/user_guide/working_with_RED.html">Working with RED</a> &gt; 
 <h2>Dark theme in RED</h2>
 <p>Dark theme is a popular way to reduce eyes strain especially in low-light working environment reducing contrast 
 between dark background and display. From version 0.8.1 RED is compatible with Eclipse default dark theme.
@@ -11,7 +11,7 @@ between dark background and display. From version 0.8.1 RED is compatible with E
 <h3>RED Syntax Coloring profiles</h3>
 <p>RED provides 2 default syntax coloring profiles used in RED source &amp; tables editors. Settings can be found at 
 <code><a class="command" href="javascript:executeCommand('org.eclipse.ui.window.preferences(preferencePageId=org.robotframework.ide.eclipse.main.plugin.preferences.editor.syntax)')">
-Window -&gt; Preferences -&gt; Robot Framework -&gt; Editor -&gt; Syntax Coloring</a></code>.
+Window -> Preferences -> Robot Framework -> Editor -> Syntax Coloring</a></code>.
 </p>
 <p><b>Default</b> profile is used for light/default theme in Eclipse and it is the same color palette as in older 
 versions of RED. New <b>heliophobia</b> profile is prepared to work with dark background. Any customization of
@@ -29,7 +29,7 @@ colors are saved into <b>custom</b> profile.
 <h3>Changing to Dark theme</h3>
 <p>Dark theme can be changed in 
 <code><a class="command" href="javascript:executeCommand('org.eclipse.ui.window.preferences(preferencePageId=org.eclipse.ui.preferencePages.Views)')">
-Window -&gt; Preferences -&gt; Appearance</a></code>,
+Window -> Preferences -> Appearance</a></code>,
 </p>
 <p><img src="images/apperence-dark.png"/>
 </p>
@@ -42,9 +42,9 @@ Window -&gt; Preferences -&gt; Appearance</a></code>,
 modified icons and other UI elements for dark profile.
 </p>
 <p>Darkest Dark Theme can be installed from 
-<b><code>Help -&gt; Eclipse Marketplace</code></b> and then be activated from 
+<b><code>Help -> Eclipse Marketplace</code></b> and then be activated from 
 <code><a class="command" href="javascript:executeCommand('org.eclipse.ui.window.preferences(preferencePageId=org.eclipse.ui.preferencePages.Views)')">
-Window -&gt; Preferences -&gt; Appearance</a></code>
+Window -> Preferences -> Appearance</a></code>
 </p>
 <p><img src="images/apperence-darkest-dark.png"/>
 </p>

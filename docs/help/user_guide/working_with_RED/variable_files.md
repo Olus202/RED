@@ -3,7 +3,7 @@
 <link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href="../../index.html">RED - Robot Editor User Guide</a> &gt; <a href="../user_guide.html">User guide</a> &gt; <a href="../working_with_RED.html">Working with RED</a> &gt; 
+<a href="../../../../help/index.html">RED - Robot Editor User Guide</a> &gt; <a href="../../../../help/user_guide/user_guide.html">User guide</a> &gt; <a href="../../../../help/user_guide/working_with_RED.html">Working with RED</a> &gt; 
 <h2>General info about Python variable files used in Robot Test Suites</h2>
 RobotFramework allows to use Python variable files in Robot Test Suites in two distinctive ways.<br/>
 <b>Direct usage</b> is done by using python file declaration in Settings section as follows:<br/>
@@ -38,7 +38,7 @@ UserDict ={'key1':'value1', 'key2':'value2'}<br/>
 <br/>
 <h2>Reloading variable file content</h2>
 Since version 0.6.6, RED can automatically invoke refresh of variable files being changed.<br/>
-This can be done manually by clicking on Project by RMB and selecting <b><code>Robot Framework -&gt; Reset Robot Environment</code></b> <br/>
+This can be done manually by clicking on Project by RMB and selecting <b><code>Robot Framework -> Reset Robot Environment</code></b> <br/>
 <br/><br/><img src="images/reset_robot_env.gif"/> <br/><br/>
 </body>
 </html>

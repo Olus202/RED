@@ -3,7 +3,7 @@
 <link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href="../../index.html">RED - Robot Editor User Guide</a> &gt; <a href="../user_guide.html">User guide</a> &gt; <a href="../launching.html">Launching Tests</a> &gt; 
+<a href="../../../../help/index.html">RED - Robot Editor User Guide</a> &gt; <a href="../../../../help/user_guide/user_guide.html">User guide</a> &gt; <a href="../../../../help/user_guide/launching.html">Launching Tests</a> &gt; 
 	<h2>Locally launched tests</h2>
 <p>When <b>Robot</b> launch configuration is launched, it setups a simple server inside RED instance to which 
 	execution events can be send from tests. Then it automatically starts the tests choosing suites/tests which
@@ -13,7 +13,7 @@
 <h3>Robot launch configuration</h3>
 <p>Open 
 	<code><a class="command" href="javascript:executeCommand('org.eclipse.debug.ui.commands.OpenRunConfigurations')">
-	Run -&gt; Run Configurations...</a></code> dialog and under <b>Robot</b> element create new configuration. The
+	Run -> Run Configurations...</a></code> dialog and under <b>Robot</b> element create new configuration. The
 	configuration itself is using couple of tabs:
 	</p>
 <ul>

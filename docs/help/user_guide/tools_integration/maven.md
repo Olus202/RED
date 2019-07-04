@@ -3,7 +3,7 @@
 <link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href="../../index.html">RED - Robot Editor User Guide</a> &gt; <a href="../user_guide.html">User guide</a> &gt; <a href="../tools_integration.html">Integration with other tools</a> &gt; 
+<a href="../../../../help/index.html">RED - Robot Editor User Guide</a> &gt; <a href="../../../../help/user_guide/user_guide.html">User guide</a> &gt; <a href="../../../../help/user_guide/tools_integration.html">Integration with other tools</a> &gt; 
 	<h2>How to integrate RED with Robotframework Maven Plugin</h2>
 <ul>
 <li>Download from <a class="external" href="http://sourceforge.net/projects/launch4j/files/launch4j-3/3.8/" target="_blank">launch4j</a>
@@ -85,7 +85,7 @@
 			version you are using
 		</li>
 <li>go to <code><a class="command" href="javascript:executeCommand('org.eclipse.ui.window.preferences(preferencePageId=org.robotframework.ide.eclipse.main.plugin.preferences.installed)')">
-Window -&gt; Preferences -&gt; Robot Framework -&gt; Installed frameworks</a></code>
+Window -> Preferences -> Robot Framework -> Installed frameworks</a></code>
 </li>
 <li>click <i>Add...</i> button and select bin directory from 1.
 		</li>

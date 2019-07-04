@@ -3,7 +3,7 @@
 <link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href="../../index.html">RED - Robot Editor User Guide</a> &gt; <a href="../user_guide.html">User guide</a> &gt; <a href="../launching.html">Launching Tests</a> &gt; 
+<a href="../../../../help/index.html">RED - Robot Editor User Guide</a> &gt; <a href="../../../../help/user_guide/user_guide.html">User guide</a> &gt; <a href="../../../../help/user_guide/launching.html">Launching Tests</a> &gt; 
 	<h2>RED Agent</h2>
 <p>RED Tests Runner Agent is something of which you should be aware if you're planning 
 	to <a href="remote_launch.html">launch tests using remote configuration</a> or if you're 
@@ -21,7 +21,7 @@
 <h3>Obtaining agent script</h3>
 <p>You can always obtain agent script from RED within Preferences dialog
 	(at <code><a class="command" href="javascript:executeCommand('org.eclipse.ui.window.preferences(preferencePageId=org.robotframework.ide.eclipse.main.plugin.preferences.launch.default)')">
-	Window -&gt; Preferences -&gt; Robot Framework -&gt; Default Launch Configurations
+	Window -> Preferences -> Robot Framework -> Default Launch Configurations
 	</a></code>, use <b>Export Client Script</b> button). Additionally the file may be saved
 	straight from launch configuration dialog.
 	</p>

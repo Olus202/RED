@@ -3,7 +3,7 @@
 <link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href="../../index.html">RED - Robot Editor User Guide</a> &gt; <a href="../user_guide.html">User guide</a> &gt; <a href="../launching.html">Launching Tests</a> &gt; 
+<a href="../../../../help/index.html">RED - Robot Editor User Guide</a> &gt; <a href="../../../../help/user_guide/user_guide.html">User guide</a> &gt; <a href="../../../../help/user_guide/launching.html">Launching Tests</a> &gt; 
 	<h2>Remotely launched tests</h2>
 <p>When <b>Robot Remote</b> launch configuration is launched, it setups a simple server inside 
 	RED instance and listens execution events from remote TestRunnerAgent which runs Robot tests on remote host.
@@ -11,7 +11,7 @@
 <h2>Remote launch configuration</h2>
 <p>Open 
 	<code><a class="command" href="javascript:executeCommand('org.eclipse.debug.ui.commands.OpenRunConfigurations')">
-	Run -&gt; Run Configurations...</a></code> dialog and under <b>Robot Remote</b> create new configuration. The
+	Run -> Run Configurations...</a></code> dialog and under <b>Robot Remote</b> create new configuration. The
 	configuration itself is rather simple and consists mainly of network-related settings: 
 	</p>
 <img src="images/remote_config.png"/>

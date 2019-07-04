@@ -3,7 +3,7 @@
 <link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href="../index.html">RED - Robot Editor User Guide</a> &gt; <a href="first_steps.html">First steps with RED</a> &gt; 
+<a href="../../../help/index.html">RED - Robot Editor User Guide</a> &gt; <a href="../../../help/first_steps/first_steps.html">First steps with RED</a> &gt; 
 	<h2>Create project, add test and run</h2>
 	
 	In order to start working with RED &amp; Eclipse, you should set RED perspective. In this perspective you can add robot project and test suites/resource files.
@@ -21,7 +21,7 @@ To start working with RED, you should activate Robot perspective first.
 
 ![](images/robot_perspective_toolbar.png) 
 <li>Set perspective to Robot by issuing action: <code><a class="command" href="javascript:executeCommand('org.eclipse.ui.perspectives.showPerspective(org.eclipse.ui.perspectives.showPerspective.perspectiveId=org.eclipse.ui.perspectives.RobotPerspective)')">
-Window -> Perspective -> Open Perspective -&gt; Other... -&gt; Robot</a></code></li>
+Window -> Perspective -> Open Perspective -> Other... -> Robot</a></code></li>
 
 ### Workspace &amp; project
 
@@ -33,7 +33,7 @@ Switching Workspace is done by menu action: __`` File -> Switch Workspace ``__
 __Project__ is an equivalent to folder in OS, it stores files and settings relevant to a group of files.In order to work with RED, __Robot Project__ has to be created.  
 Creating new Project can be done by:
 
-*   __`` File -> New -> Robot Project ``__ (item can be found also under selection __`` New -&gt; Project... -&gt; Robot Framework -&gt; Robot Project ``__)
+*   __`` File -> New -> Robot Project ``__ (item can be found also under selection __`` New -> Project... -> Robot Framework -> Robot Project ``__)
 *   Right click menu on Project Explorer with selection as above
 
 If you wish to import anything into Workspace (i.e. already existing Project) or into Project (existing test cases), menu _Import... _will open up wizard.Upon creating Project, you should have see similar structure in Project Explorer tree, which will also indicate that RobotFramework is visible to Eclipse.
@@ -46,7 +46,7 @@ Fix this by right-click on Project name,from Robot Framework select __Configure 
 
 ### Create TestSuite
 
-To create sample test you should invoke action: __`` File -&gt; New -&gt; Other... -&gt; Robot Framework -&gt; Robot Test Suite ``__. Same action can be accessed by right click menu.  
+To create sample test you should invoke action: __`` File -> New -> Other... -> Robot Framework -> Robot Test Suite ``__. Same action can be accessed by right click menu.  
 Double click on file in Project Explorer will open file's editor.  
 RED consists of 2 different modes of editing: a Table (Ride-like style) and Text style. At the bottom of opened editor, there are list of tabs.Rightmost opens text editor(Source),others are for Table syles.   
 By default Source editor is used when Test Suite file is opened. ![](images/red_editor_table.png) 
@@ -80,11 +80,11 @@ To run single test case in test suite, you can select desire test case in Projec
 
 During TestSuite execution, RED displays RobotFramework console and message logs.
 
-Those information are available in Console and Message Log, by default visible in the Robot perspective or by __`` Window -&gt; Show View -&gt; Other... -&gt; Robot ``__
+Those information are available in Console and Message Log, by default visible in the Robot perspective or by __`` Window -> Show View -> Other... -> Robot ``__
 ![](images/view_console.png) 
 ![](images/view_msg_log.png) 
 If any of those 2 views are missing, best way is to reset perspective settings by using action <code><a class="command" href="javascript:executeCommand('org.eclipse.ui.window.resetPerspective()')">
-Window -&gt; Perspective -&gt; Reset Perspective...</a></code>
+Window -> Perspective -> Reset Perspective...</a></code>
 
 #### Execution status
 
@@ -92,4 +92,4 @@ RED can show execution status of TestCases along with outcome result and executi
 ![](images/view_exec.png) 
   
 
-To open Execution go to: __`` Window -&gt; Show View -&gt; Robot -&gt; Execution View ``__
+To open Execution go to: __`` Window -> Show View -> Robot -> Execution View ``__

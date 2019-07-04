@@ -3,7 +3,7 @@
 <link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href="../index.html">RED - Robot Editor User Guide</a> &gt; <a href="first_steps.html">First steps with RED</a> &gt; 
+<a href="../../../help/index.html">RED - Robot Editor User Guide</a> &gt; <a href="../../../help/first_steps/first_steps.html">First steps with RED</a> &gt; 
   <h2>RED Preferences &amp; red.xml and other</h2>
   This page is intended to help users in following cases: <br/>
 <ul>
@@ -14,7 +14,7 @@
 <p>
   Editor preferences are stored together with other Eclipse settings, all of them are shared across <b>active workspace</b>.</p>
 <p>Preferences can be found in toolbar menu <code><a class="command" href="javascript:executeCommand('org.eclipse.ui.window.preferences(preferencePageId=org.robotframework.ide.eclipse.main.plugin.preferences.main)')">
-Window -&gt; Preferences -&gt; Robot Framework</a></code>.</p>
+Window -> Preferences -> Robot Framework</a></code>.</p>
 <p>One of the most important item in multiple python environment is setting active Python and RobotFramework instances to be used for running and debugging.</p>
 <p>If you need to use different Pythons &amp; Robots in various projects, this can be done editing red.xml in respective project</p><br/>
 <img src="images/red_preferences.gif"/>

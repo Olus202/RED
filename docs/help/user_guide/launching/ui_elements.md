@@ -3,7 +3,7 @@
 <link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href="../../index.html">RED - Robot Editor User Guide</a> &gt; <a href="../user_guide.html">User guide</a> &gt; <a href="../launching.html">Launching Tests</a> &gt; 
+<a href="../../../../help/index.html">RED - Robot Editor User Guide</a> &gt; <a href="../../../../help/user_guide/user_guide.html">User guide</a> &gt; <a href="../../../../help/user_guide/launching.html">Launching Tests</a> &gt; 
 	<h2>Launching related UI elements</h2>
 <p>RED provides couple of elements which are used in order to launch test and communicate with
 	them when they are running. 
@@ -15,9 +15,9 @@
 <ul>
 <li><b>Launch Configuration dialog</b> - open launch configurations dialog (via 
 		<code><a class="command" href="javascript:executeCommand('org.eclipse.debug.ui.commands.OpenRunConfigurations')">
-		Run -&gt; Run Configurations...</a></code> or
+		Run -> Run Configurations...</a></code> or
 		<code><a class="command" href="javascript:executeCommand('org.eclipse.debug.ui.commands.OpenDebugConfigurations')">
-		Run -&gt; Debug Configurations...</a></code> menu) and create new configuration under <i>Robot</i> or
+		Run -> Debug Configurations...</a></code> menu) and create new configuration under <i>Robot</i> or
 		<i>Robot Remote</i> element. For detailed description of both configurations and their possible 
 		attributes read <a href="local_launch.html">Local launches</a> or 
 		<a href="remote_launch.html">Remote launches</a> topic. After creating the configuration it can be launched

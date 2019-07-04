@@ -3,7 +3,7 @@
 <link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href="../../index.html">RED - Robot Editor User Guide</a> &gt; <a href="../user_guide.html">User guide</a> &gt; <a href="../working_with_RED.html">Working with RED</a> &gt; 
+<a href="../../../../help/index.html">RED - Robot Editor User Guide</a> &gt; <a href="../../../../help/user_guide/user_guide.html">User guide</a> &gt; <a href="../../../../help/user_guide/working_with_RED.html">Working with RED</a> &gt; 
 <h2>Content assistance</h2>
 Content assistance is a functionality provided by Eclipse platform extended to understand Robot data model.<br/>
 By default it is invoked by pressing CTRL+SPACE key short-cut, but it can be changed in binding keys preferences.<br/> 
@@ -19,7 +19,7 @@ When given input is camel case string (for example: REA, CrBiFi, WaUCr) keywords
 <br/><br/><img src="images/content-assist-camel-case.png"/> <br/><br/><br/>
 <h3>Content assistance preferences </h3>
 Behavior of content assist can be changed at <code><a class="command" href="javascript:executeCommand('org.eclipse.ui.window.preferences(preferencePageId=org.robotframework.ide.eclipse.main.plugin.preferences.editor.assist)')">
-Window -&gt; Preferences -&gt; Robot Framework -&gt; Editor -&gt; Content Assist</a></code>.<br/>
+Window -> Preferences -> Robot Framework -> Editor -> Content Assist</a></code>.<br/>
 <br/><b>Auto activation</b><br/>
 When auto activation is enabled, triggers and delay can be specified to automatically show assist window when one of defined characters is typed.<br/>
 <br/><b>Keywords</b><br/>
