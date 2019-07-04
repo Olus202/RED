@@ -21,7 +21,7 @@ To start working with RED, you should activate Robot perspective first.
 
 ![](images/robot_perspective_toolbar.png) 
 <li>Set perspective to Robot by issuing action: <code><a class="command" href="javascript:executeCommand('org.eclipse.ui.perspectives.showPerspective(org.eclipse.ui.perspectives.showPerspective.perspectiveId=org.eclipse.ui.perspectives.RobotPerspective)')">
-Window -&gt; Perspective -&gt; Open Perspective -&gt; Other... -&gt; Robot</a></code></li>
+Window -> Perspective -> Open Perspective -&gt; Other... -&gt; Robot</a></code></li>
 
 ### Workspace &amp; project
 
