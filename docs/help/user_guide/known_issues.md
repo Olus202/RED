@@ -3,7 +3,7 @@
 <link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href="../../../help/index.html">RED - Robot Editor User Guide</a> &gt; <a href="../../../help/user_guide/user_guide.html">User guide</a> &gt; 
+<a href="RED/../../../help/index.html">RED - Robot Editor User Guide</a> &gt; <a href="RED/../../../help/user_guide/user_guide.html">User guide</a> &gt; 
 <h2>Known issues and problems</h2>
 <p>For all currently opened issues please visit our repository at 
 <a class="external" href="https://github.com/nokia/RED/" target="_blank">GitHub</a>
@@ -46,12 +46,12 @@
 </li>
 <li>
 <h3>GTK3 issues under Linux</h3>
-<p>It was observed that using GTK3 library with Eclipse causes unexpected graphical glitches.
-		Those glitches are system independent although occurs more often under Debian and Ubuntu than RedHat
+<p>It was observed that using GTK3 library with Eclipse (older then version 2019-03 - in this version GTK3 is required) causes unexpected graphical glitches.
+		Those glitches are system independent although occurs more often under Debian and Ubuntu than RedHat.
 		Most annoying one is screen flickering when editing large file with multiple folding sections in source editor.
 		Also some of the right click actions in red.xml are not activated.
 		</p>
-<p>It is recommended to switch to GTK2 when working under Linux.</p>
+<p>It is recommended to switch to GTK2 when working under Linux for Eclipse older then 2019-03 and RED version 0.8.13.</p>
 <p>RED Product for Linux has configuration to use GTK2, Eclipse users should check and change - if necessary - to GTK2.
 		</p>
 <h4>Verifying current GTK version used</h4>

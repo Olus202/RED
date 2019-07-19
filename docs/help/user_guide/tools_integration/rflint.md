@@ -3,7 +3,7 @@
 <link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href="../../../../help/index.html">RED - Robot Editor User Guide</a> &gt; <a href="../../../../help/user_guide/user_guide.html">User guide</a> &gt; <a href="../../../../help/user_guide/tools_integration.html">Integration with other tools</a> &gt; 
+<a href="RED/../../../../help/index.html">RED - Robot Editor User Guide</a> &gt; <a href="RED/../../../../help/user_guide/user_guide.html">User guide</a> &gt; <a href="RED/../../../../help/user_guide/tools_integration.html">Integration with other tools</a> &gt; 
 	<h2>Robot Framework Lint analysis</h2>
 <p>Starting with RED 0.8.1 it is possible to run <a class="external" href="http://github.com/boakley/robotframework-lint/" target="_blank">Robot Framework Lint</a> 
 	analysis tool. Of course one have to have it installed in the python installation
@@ -35,31 +35,41 @@
 <h3>Configuration</h3>
 <p>It is possible to configure RfLint behavior in Preferences (
 		<code><a class="command" href="javascript:executeCommand('org.eclipse.ui.window.preferences(preferencePageId=org.robotframework.ide.eclipse.main.plugin.preferences.rflint)')">
-		Window -> Preferences -> Robot Framework -> Errors/Warnings -> RfLint validation</a></code>)
+		Window -> Preferences -> Robot Framework -> Errors/Warnings -> RfLint validation</a></code>).
 	</p>
-<img src="images/rflint_prefs.png"/>
+<img src="images/rflint_preferences.png"/>
+<p>The table shows all available rules grouped by the source files where they are defined. It is possible
+	to:
+	</p>
 <ul>
-<li>rule <b>severity</b> - rule of a given name can have severity specified: <b>default</b> means severity is 
-		unchanged, <b>Error</b> and <b>Warning</b> changes severity to one of those levels, while <b>Ignore</b> will
-		silence the rule,
-		<p></p>
+<li>add <b>additional rules files</b> - those files will be attached with all the rules when running RfLint 
+	    analysis,
+	    <p></p>
+<li><b>ignore</b> rules - by checking/unchecking them. By default all the rules are not ignored. It is also
+	    possible to check/uncheck file which will apply to all the rules from this file,
+	    <p></p>
+</li>
+<li>define rule <b>severity</b> - each rule can have severity specified: <b>Error</b> and <b>Warning</b>.
+        Similarly one can change severity of a file which would change severities of all its rules, 
+        <p></p>
 </li>
 <li>rule <b>configuration</b> - as described in <a class="external" href="http://github.com/boakley/robotframework-lint/wiki/How-to-write-custom-rules" target="_blank">RfLint Wiki</a>
-		some rules can be configured. This can be done on preference page. Simply write arguments for given rule. 
-		If there are multiple arguments then they should be separated with colon (:) character,
-		<p></p>
+        some rules can be parameterized: simply write arguments for given rule and remember that multiple arguments
+        should be separated with colon (:) character.
+        <p></p>
 </li>
-<li><b>additional rules files</b> - add python files containing custom RfLint rules so that they will 
-		be also used for analysis.
-		<p></p>
-</li>
-<li><b>additional arguments</b> - custom RfLint arguments that will be used for analysis
-		<p></p>
-</li>
-</ul>
-<dl class="note">
-<dt>Note</dt>
-<dd>Additional arguments field accepts Eclipse <a href="../launching/string_substitution.html">string variables</a>.</dd>
-</dl>
+</li></ul>
+<p>The preference page displays the rule documentation in order to have a quick rule overview. Custom command
+	line arguments for RfLint can be passed using <b>Additional arguments for RfLint</b> field - refer toe RfLint 
+	user guide for more details on possible arguments.
+	</p>
+<br/>
+<h3>Displaying rules documentation</h3>
+<p>It is possible to see the rule documentation straight from <b>Problems</b> view by using context menu
+    action on given RfLint problem. The documentation will be displayed in <b>Documentation</b> view.
+    </p>
+<img src="images/rflint_showdoc.png"/>
+<br/>
+<br/>
 </body>
 </html>

@@ -3,7 +3,7 @@
 <link href="PLUGINS_ROOT/org.robotframework.ide.eclipse.main.plugin.doc.user/help/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href="../../../../../help/index.html">RED - Robot Editor User Guide</a> &gt; <a href="../../../../../help/user_guide/user_guide.html">User guide</a> &gt; <a href="../../../../../help/user_guide/launching.html">Launching Tests</a> &gt; <a href="../../../../../help/user_guide/launching/debug.html">Debugging Robot</a> &gt; 
+<a href="RED/../../../../../help/index.html">RED - Robot Editor User Guide</a> &gt; <a href="RED/../../../../../help/user_guide/user_guide.html">User guide</a> &gt; <a href="RED/../../../../../help/user_guide/launching.html">Launching Tests</a> &gt; <a href="RED/../../../../../help/user_guide/launching/debug.html">Debugging Robot</a> &gt; 
 	<h2>Debugging Robot &amp; Python with RED &amp; PyDev</h2>
 <p>It is possible to setup debugging sessions on both Robot and Python code levels using RED together with
 	PyDev in single RED/Eclipse instance.
@@ -76,6 +76,14 @@
 </ul>
 <p>It is also possible to set the address and port on which PyDev will communicate with the module.
     </p>
+<dl class="warning">
+<dt>Warning</dt>
+<dd>If the libraries you are going to debug use <code>Gevent</code> library then please select <b>Gevent 
+       compatible</b> checkbox. This will add <code>GEVENT_SUPPORT</code> environment variable set to <code>True</code>.
+       It is required for <code>pydevd</code> in order to be able to debug such libraries. Without this the debugger
+       sessions may hang.
+       </dd>
+</dl>
 <h4>Created launch configuration</h4>
 <p>After clicking <b>Finish</b> RED will install or export <code>redpydevd</code> runner (if neeeded) and create
     new launch configuration with prefilled <b>External script</b> settings at <b>Executor</b> tab. For example:
