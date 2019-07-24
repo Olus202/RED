@@ -11,10 +11,10 @@ This can be done in several ways, the easiest is to use top menu:<br/>
 <code><a class="command" href="javascript:executeCommand('org.eclipse.ui.perspectives.showPerspective()')">
 Window -> Perspective -> Open perspective -> Other</a> 
 and select <a class="command" href="javascript:executeCommand('org.eclipse.ui.perspectives.showPerspective(org.eclipse.ui.perspectives.showPerspective.perspectiveId=org.eclipse.ui.perspectives.RobotPerspective)')">Robot</a></code>
-<h3>Create Robot Project<h3>
+<h3>Create Robot Project</h3>
 All projects with Robot Framework files should be kept in project-type
-(nature) Robot, as this allows RED to activate RED specific
-features on Robot files. Select from top menu bar:</h3></h3></body></html>
+("nature") Robot, as this allows RED to activate RED specific
+features on Robot files. Select from top menu bar:</body></html>
 
 <code><a class="command" href="javascript:executeCommand('org.eclipse.ui.newWizard(newWizardId=org.robotframework.ide.eclipse.wizards.newRobotProject)')">
 File -> New -> Other -> Robot Framework -> Robot Project</a></code>

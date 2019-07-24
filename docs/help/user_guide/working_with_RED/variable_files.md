@@ -27,7 +27,8 @@ Variables from such file will be visible as Global variables for all Robot files
 Below is a sample body of such Python variable file (examples can be also found in RobotFramework official manual and Python examples). 
 <br/><br/><img src="images/var_files_red_xml.gif"/> <br/><br/>
 <br/>
-<code><br/>
+<br/>
+<code>
 #!python <br/>
 <br/>
 #Sample variables and values<br/>
