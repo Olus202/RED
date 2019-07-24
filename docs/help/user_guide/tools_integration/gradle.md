@@ -45,8 +45,9 @@
 </p>
 <ul>
 <li><b>Windows batch script</b> - <code>gradlew_robot.bat<br/></code>
+</li></ul></body></html>
+
 <code>
-<br/>
 			@echo off<br/>
 			set FIRST="true"<br/>
 			set EXEC=%1<br/>
@@ -68,12 +69,10 @@
 			set RF_ARGS=%RF_ARGS:\=/%]<br/>
 <br/>
 			call gradlew.bat runRobot -ProbotExec=%EXEC% -ProbotArguments="%RF_ARGS%"<br/>
-<br/>
 </code>
-</li>
-<li><b>Linux bash script</b> - <code>gradlew_robot.sh<br/></code>
+
+<li><b>Linux bash script</b> - <code>gradlew_robot.sh<br/></code></li>
 <code>
-<br/>
 			#!/usr/bin/env bash<br/>
 <br/>
 			first=1<br/>
@@ -94,15 +93,13 @@
 <br/>
 			./gradlew runRobot -ProbotExec=$exec -ProbotArguments=$restvar<br/>
 </code>
-</li>
-</ul>
-<p>
-		It is now possible to run tests with the script above: create Robot
-		launch configuration and set executable file at <b>Executor</b> tab
-		and launch the tests as depicted on images below.
-	</p>
-<p><img src="images/gradle_win.png"/></p>
-<p><img src="images/gradle_linux.png"/></p>
+
+		It is now possible to run tests with the script above: create Robot		launch configuration and set executable file at __Executor__ tab		and launch the tests as depicted on images below.	
+
+![](images/gradle_win.png)
+
+![](images/gradle_linux.png)
+
 <dl class="note">
 <dt>Note</dt>
 <dd>Instead of specifying script at <b>Executor</b> tab manually it is possible to define
@@ -113,13 +110,11 @@
 	   configuration is created it will use given executable by default.
 	   </dd>
 </dl>
-<h3>Gradle scripts running Standalone JAR distribution</h3>
-<p>Running the tests through Gradle plugin which uses standalone JAR is very similar to running 
-	the tests using external interpreter, the only thing is that 
-	the script has to translate arguments into a form which is used by the plugin, which may of course vary
-	depending on Gradle plugin in use. The batch/bash scripts from above may be adapted and used when calling
-	tests this way.
-	</p>
+
+### Gradle scripts running Standalone JAR distribution
+
+Running the tests through Gradle plugin which uses standalone JAR is very similar to running 	the tests using external interpreter, the only thing is that 	the script has to translate arguments into a form which is used by the plugin, which may of course vary	depending on Gradle plugin in use. The batch/bash scripts from above may be adapted and used when calling	tests this way.	
+
 <dl class="warning">
 <dt>Warning</dt>
 <dd>As for now RED cannot use Standalone JAR distribution of RF as environment, so while it would 
@@ -128,5 +123,3 @@
 	   python interpreter installed.
 	   </dd>
 </dl>
-</body>
-</html>
