@@ -4,11 +4,10 @@
 </head>
 <body>
 <a href="RED/../../../../help/index.html">RED - Robot Editor User Guide</a> &gt; <a href="RED/../../../../help/user_guide/user_guide.html">User guide</a> &gt; <a href="RED/../../../../help/user_guide/working_with_RED.html">Working with RED</a> &gt; 
-<a href="RED/../../../../help/index.html">RED - Robot Editor User Guide</a> &gt; <a href="RED/../../../../help/user_guide/user_guide.html">User guide</a> &gt; <a href="RED/../../../../help/user_guide/working_with_RED.html">Working with RED</a> &gt; 
 <h2>General info about Python variable files used in Robot Test Suites</h2>
 RobotFramework allows to use Python variable files in Robot Test Suites in two distinctive ways.<br/>
 <b>Direct usage</b> is done by using python file declaration in Settings section as follows:<br/>
-<i>Variables  &lt;path_to_python_var_file&gt;</i><br/><br/>
+<code>Variables  &lt;path_to_python_var_file&gt;<code><br/><br/>
 Variable file content will be visible across Test Suite.<br/>
 <b>Global usage</b> is a way to use common variable file across any Test Suite.<br/>
 In RED, this can be achieved by including variable files in RED.xml under Variable Files tab. <br/>
@@ -41,5 +40,5 @@ UserDict ={'key1':'value1', 'key2':'value2'}<br/>
 Since version 0.6.6, RED can automatically invoke refresh of variable files being changed.<br/>
 This can be done manually by clicking on Project by RMB and selecting <b><code>Robot Framework -> Reset Robot Environment</code></b> <br/>
 <br/><br/><img src="images/reset_robot_env.gif"/> <br/><br/>
-</body>
+</code></code></body>
 </html>
