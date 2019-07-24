@@ -44,8 +44,9 @@
 		https://github.com/nokia/RED/tree/master/src/RobotUserScripts</a>
 </p>
 <ul>
-<li><b>Windows batch script</b> - <code>gradlew_robot.bat</code>
-<div class="code">
+<li><b>Windows batch script</b> - <code>gradlew_robot.bat<br/></code>
+<code>
+<br/>
 			@echo off<br/>
 			set FIRST="true"<br/>
 			set EXEC=%1<br/>
@@ -67,10 +68,12 @@
 			set RF_ARGS=%RF_ARGS:\=/%]<br/>
 <br/>
 			call gradlew.bat runRobot -ProbotExec=%EXEC% -ProbotArguments="%RF_ARGS%"<br/>
-</div>
+<br/>
+</code>
 </li>
-<li><b>Linux bash script</b> - <code>gradlew_robot.sh</code>
-<div class="code">
+<li><b>Linux bash script</b> - <code>gradlew_robot.sh<br/></code>
+<code>
+<br/>
 			#!/usr/bin/env bash<br/>
 <br/>
 			first=1<br/>
@@ -90,7 +93,7 @@
 			restvar="$restvar]"<br/>
 <br/>
 			./gradlew runRobot -ProbotExec=$exec -ProbotArguments=$restvar<br/>
-</div>
+</code>
 </li>
 </ul>
 <p>
