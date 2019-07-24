@@ -7,7 +7,7 @@
 <h2>Quick start with RED - Robot Editor</h2>
 <h3>Switch to Robot perspective</h3>
 In order to work with RED, Robot perspective needs to be activated.
-This can be done in several ways, the easiest is to use top menu:<br/>
+This can be done in several ways, the easiest is to use top menu:
 <code><a class="command" href="javascript:executeCommand('org.eclipse.ui.perspectives.showPerspective()')">
 Window -> Perspective -> Open perspective -> Other</a></code> 
 and select <a class="command" href="javascript:executeCommand('org.eclipse.ui.perspectives.showPerspective(org.eclipse.ui.perspectives.showPerspective.perspectiveId=org.eclipse.ui.perspectives.RobotPerspective)')">Robot</a></body></html>
