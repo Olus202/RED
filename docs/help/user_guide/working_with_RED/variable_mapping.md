@@ -18,8 +18,11 @@ Variables mappings can be used to statically assign value to parameters in paths
     During test execution variables have to be provided by Robot.</dd>
 </dl>
 
-Open __`` red.xml -> Variables ``__ and assign static value for path parameter in Variable mappings section:
-
-![](images/variable_mapping_6.gif)  
-When successful, path will be recognized and validation will take place.
-![](images/variable_mapping_7.png) 
+Open __`` red.xml -> Variables ``__ and assign static value for path parameter in Variable mappings section:  
+  
+![](images/variable_mapping_6.gif)   
+  
+ When successful, path will be recognized and validation will take place.  
+  
+![](images/variable_mapping_7.png)   
+  
