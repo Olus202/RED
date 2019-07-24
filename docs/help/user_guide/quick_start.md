@@ -9,18 +9,20 @@
 In order to work with RED, Robot perspective needs to be activated.
 This can be done in several ways, the easiest is to use top menu:<br/>
 <code><a class="command" href="javascript:executeCommand('org.eclipse.ui.perspectives.showPerspective()')">
-Window -> Perspective -> Open perspective -> Other</a> 
-and select <a class="command" href="javascript:executeCommand('org.eclipse.ui.perspectives.showPerspective(org.eclipse.ui.perspectives.showPerspective.perspectiveId=org.eclipse.ui.perspectives.RobotPerspective)')">Robot</a></code>
-<h3>Create Robot Project</h3>
+Window -> Perspective -> Open perspective -> Other</a></code> 
+and select <a class="command" href="javascript:executeCommand('org.eclipse.ui.perspectives.showPerspective(org.eclipse.ui.perspectives.showPerspective.perspectiveId=org.eclipse.ui.perspectives.RobotPerspective)')">Robot</a></body></html>
+
+### Create Robot Project
+
 All projects with Robot Framework files should be kept in project-type
 ("nature") Robot, as this allows RED to activate RED specific
-features on Robot files. Select from top menu bar:</body></html>
-
+features on Robot files. Select from top menu bar:
 <code><a class="command" href="javascript:executeCommand('org.eclipse.ui.newWizard(newWizardId=org.robotframework.ide.eclipse.wizards.newRobotProject)')">
 File -> New -> Other -> Robot Framework -> Robot Project</a></code>
 
 Empty Robot Project should looks similar as below: 
 ![](images/simple_project_1.png)
+
 If project doesn't have brown icon or no red.xml file it means that the Project is different type than Robot.
 Fix this by right-click on Project name,from Robot Framework select __Add Robot nature__
 
