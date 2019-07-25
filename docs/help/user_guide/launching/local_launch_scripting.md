@@ -62,8 +62,8 @@
 	   </dd>
 </dl>
 <ul>
-		Windows batch example:
-		</ul></body></html>
+<p>Windows batch example:</p>
+</ul></body></html>
 
 <code>
 		@ECHO OFF<br/>
@@ -73,9 +73,8 @@
     	echo running arguments as they consist call to start python scripts: %*
 		</code>
 
-		
-		Python script example:
-		
+Python script example:
+
 <code>
 		import sys<br/>
 		from io import StringIO<br/>
@@ -85,8 +84,8 @@
 		print('##########')<br/>
 		sys.stdout.flush()<br/><br/>
 		execution = Popen(sys.argv[1:])<br/>
-		execution.communicate()<br/>
-</br></code>
+		execution.communicate()
+		</br></code>
 
 Save code from above into `` my_script.py `` file, then at __Executor__ tab	of desired launch configuration browse your computer for __python.exe__ and set it in	__executable file__ field and pass the location to `` my_script.py `` inside	__arguments field__.	
 
