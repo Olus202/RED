@@ -61,31 +61,31 @@
 <dd>User scripts examples can be found at <a class="external" href="https://github.com/nokia/RED/tree/master/src/RobotUserScripts" target="_blank">https://github.com/nokia/RED/tree/master/src/RobotUserScripts</a>.
 	   </dd>
 </dl>
-<ul>
-<p>Windows batch example:</p>
-</ul></body></html>
+</body></html>
+
+__Windows batch example:__
 
 <code>
-		@ECHO OFF<br/>
-    	echo running scripts with external batch file<br/>
-    	echo script name: %0<br/>
-    	echo script's arguments: %*<br/>
-    	echo running arguments as they consist call to start python scripts: %*
-		</code>
+	@ECHO OFF<br/>
+	echo running scripts with external batch file<br/>
+	echo script name: %0<br/>
+	echo script's arguments: %*<br/>
+	echo running arguments as they consist call to start python scripts: %*
+	</code>
 
-Python script example:
+__Python script example:__
 
 <code>
-		import sys<br/>
-		from io import StringIO<br/>
-		from subpro<br/>cess import Popen, PIPE<br><br/>
-		print('##########')<br/>
-		print('Running Robot tests via script!')<br/>
-		print('##########')<br/>
-		sys.stdout.flush()<br/><br/>
-		execution = Popen(sys.argv[1:])<br/>
-		execution.communicate()
-		</br></code>
+	import sys<br/>
+	from io import StringIO<br/>
+	from subpro<br/>cess import Popen, PIPE<br><br/>
+	print('##########')<br/>
+	print('Running Robot tests via script!')<br/>
+	print('##########')<br/>
+	sys.stdout.flush()<br/><br/>
+	execution = Popen(sys.argv[1:])<br/>
+	execution.communicate()
+	</br></code>
 
 Save code from above into `` my_script.py `` file, then at __Executor__ tab	of desired launch configuration browse your computer for __python.exe__ and set it in	__executable file__ field and pass the location to `` my_script.py `` inside	__arguments field__.	
 
