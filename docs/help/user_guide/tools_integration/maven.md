@@ -67,7 +67,7 @@
 <p>Execute in command line:</p>
 <code>
 	set RF_JAR=D:\userdata\RED\Desktop<br>
-	set RF_JAR=C:\Users\RED\.m2\repository\org\robotframework\robotframework\3.0\robotframework-3.0.jar<br/>
+	set&nbsp;RF_JAR=C:\Users\RED\.m2\repository\org\robotframework\robotframework\3.0\robotframework-3.0.jar<br/>
 	jython.exe -m robot.run --version
 	</br></code>
 <p>If output looks like: Robot Framework 3.0 (Jython 2.7.0 on java1.*) it means that you can 

@@ -23,14 +23,12 @@
 <h3>Simple Gradle script running external interpreter</h3>
 <p>We will use following simple script in order to run interpreter from RED: 
 	</p>
-<div class="code">
 <code>
-		task runRobot(type:Exec) {<br/>
-   		&nbsp;&nbsp;&nbsp;&nbsp;executable robotExec<br/>
- 		&nbsp;&nbsp;&nbsp;&nbsp;args Eval.me(robotArguments)<br/>
-		}
-		</code>
-</div>
+	task runRobot(type:Exec) {<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;executable robotExec<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;args Eval.me(robotArguments)<br/>
+	}
+	</code>
 <p>the task above expects two arguments: path to interpreter executable and a list 
 	of it's arguments written in a form: <code>['arg1', 'arg2', ..., 'arg_n']</code>
 </p>
@@ -44,8 +42,6 @@
 		https://github.com/nokia/RED/tree/master/src/RobotUserScripts</a>
 </p>
 <p><b>Windows batch script</b> - <code>gradlew_robot.bat<br/></code></p>
-</body></html>
-
 <code>
 	@echo off<br/>
 	set FIRST="true"<br/>
@@ -69,6 +65,7 @@
 <br/>
 	call gradlew.bat runRobot -ProbotExec=%EXEC% -ProbotArguments="%RF_ARGS%"<br/>
 </code>
+</body></html>
 
 __Linux bash script__ - <code>gradlew_robot.sh<br/></code>
 
