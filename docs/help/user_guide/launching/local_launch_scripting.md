@@ -68,24 +68,23 @@
     echo running scripts with external batch file
     echo script name: %0
     echo script's arguments: %*
-    echo running arguments as they consist call to start python scripts:
-    %*
+    echo running arguments as they consist call to start python scripts: %*
+    
 
 Python script example:
 
-<code>
-	import sys<br/>
-	from io import StringIO<br/>
-	from subprocess import Popen, PIPE<br/><br/>
+`` 
+	import sys ``
+	from io import StringIO
+	from subprocess import Popen, PIPE
 	
-	print('##########')<br/>
-	print('Running Robot tests via script!')<br/>
-	print('##########')<br/>
-	sys.stdout.flush()<br/><br/>
+	print('##########')
+	print('Running Robot tests via script!')
+	print('##########')
+	sys.stdout.flush()
 	
-	execution = Popen(sys.argv[1:])<br/>
-	execution.communicate()<br/>
-</code>
+	execution = Popen(sys.argv[1:])
+	execution.communicate()
 
 Save code from above into `` my_script.py `` file, then at __Executor__ tab	of desired launch configuration browse your computer for __python.exe__ and set it in	__executable file__ field and pass the location to `` my_script.py `` inside	__arguments field__.	
 
