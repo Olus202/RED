@@ -41,7 +41,10 @@
     Script available on GitHub: <a class="external" href="https://github.com/nokia/RED/tree/master/src/RobotUserScripts" target="_blank">
 		https://github.com/nokia/RED/tree/master/src/RobotUserScripts</a>
 </p>
-<p><b>Windows batch script</b> - <code>gradlew_robot.bat<br/></code></p>
+</body></html>
+
+__Windows batch script__ - <code>gradlew_robot.bat<br/></code>
+
 <code>
 	@echo off<br/>
 	set FIRST="true"<br/>
@@ -65,7 +68,6 @@
 <br/>
 	call gradlew.bat runRobot -ProbotExec=%EXEC% -ProbotArguments="%RF_ARGS%"<br/>
 </code>
-</body></html>
 
 __Linux bash script__ - <code>gradlew_robot.sh<br/></code>
 
@@ -90,10 +92,9 @@ __Linux bash script__ - <code>gradlew_robot.sh<br/></code>
 	./gradlew runRobot -ProbotExec=$exec -ProbotArguments=$restvar<br/>
 </code>
 
-	It is now possible to run tests with the script above: create Robot	launch configuration and set executable file at __Executor__ tab	and launch the tests as depicted on images below.	
+It is now possible to run tests with the script above: create Robotlaunch configuration and set executable file at __Executor__ taband launch the tests as depicted on images below. 
 
 ![](images/gradle_win.png)
-
 ![](images/gradle_linux.png)
 
 <dl class="note">
