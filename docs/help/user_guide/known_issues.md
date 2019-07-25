@@ -18,12 +18,12 @@
 		parameters to respectful levels. Change or add those parameters in <i>.ini</i> file after
 		<code>-vmargs</code> parameter:
 		</p>
-<div class="code">
+<code>
 		-vmargs<br/>
 		-Xms2048m<br/>
 		-Xmx4096m<br/>
 		...
-		</div>
+		</code>
 </li>
 <li>
 <h3>Unicode characters in test material</h3>
@@ -60,26 +60,26 @@
 		</p>
 <h4>Setting GTK2 system wide</h4>
 <p>In order to run eclipse/RED with GTK2 execute following:</p>
-<div class="code">
+<code>
 		export SWT_GTK3=0
-		</div>
+		</code>
 <p>then start eclipse:</p>
-<div class="code">
+<code>
 		./eclipse
-		</div>
+		</code>
 <p>or RED:</p>
-<div class="code">
+<code>
 		./RED
-		</div>
+		</code>
 <h4>Setting GTK2 in eclipse.ini/RED.ini</h4>
 <p>GTK2 usage can be forced for eclipse/RED instance. In order to do it simply add following 2 lines to 
 		<b>eclipse.ini</b>/<b>RED.ini</b> file before <code>-vmargs</code> section:
 		</p>
-<div class="code">
+<code>
 		--launcher.GTK_version 2<br/>
 		...<br/>
 		-vmargs<br/>
-</div>
+</code>
 </li>
 </ul>
 </body>
