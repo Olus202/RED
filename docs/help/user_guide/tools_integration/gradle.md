@@ -43,58 +43,57 @@
     Script available on GitHub: <a class="external" href="https://github.com/nokia/RED/tree/master/src/RobotUserScripts" target="_blank">
 		https://github.com/nokia/RED/tree/master/src/RobotUserScripts</a>
 </p>
-<ul>
-<li><b>Windows batch script</b> - <code>gradlew_robot.bat<br/></code>
-</li></ul></body></html>
+<p><b>Windows batch script</b> - <code>gradlew_robot.bat<br/></code></p>
+</body></html>
 
 <code>
-			@echo off<br/>
-			set FIRST="true"<br/>
-			set EXEC=%1<br/>
-			set RF_ARGS=[<br/>
-			shift<br/>
+	@echo off<br/>
+	set FIRST="true"<br/>
+	set EXEC=%1<br/>
+	set RF_ARGS=[<br/>
+	shift<br/>
 <br/>
-			:loop1<br/>
-			if "%1"=="" goto after_loop<br/>
-			if %FIRST%=="true" (<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;set RF_ARGS=%RF_ARGS%'%1'<br/>
-			) else (<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;set RF_ARGS=%RF_ARGS%, '%1'<br/>
-			)<br/>
-			shift<br/>
-			set FIRST="false"<br/>
-			goto loop1<br/>
+	:loop1<br/>
+	if "%1"=="" goto after_loop<br/>
+	if %FIRST%=="true" (<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;set RF_ARGS=%RF_ARGS%'%1'<br/>
+	) else (<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;set RF_ARGS=%RF_ARGS%, '%1'<br/>
+	)<br/>
+	shift<br/>
+	set FIRST="false"<br/>
+	goto loop1<br/>
 <br/>
-			:after_loop<br/>
-			set RF_ARGS=%RF_ARGS:\=/%]<br/>
+	:after_loop<br/>
+	set RF_ARGS=%RF_ARGS:\=/%]<br/>
 <br/>
-			call gradlew.bat runRobot -ProbotExec=%EXEC% -ProbotArguments="%RF_ARGS%"<br/>
+	call gradlew.bat runRobot -ProbotExec=%EXEC% -ProbotArguments="%RF_ARGS%"<br/>
 </code>
 
-<li><b>Linux bash script</b> - <code>gradlew_robot.sh<br/></code></li>
+__Linux bash script__ - <code>gradlew_robot.sh<br/></code>
+
 <code>
-			#!/usr/bin/env bash<br/>
+	#!/usr/bin/env bash<br/>
 <br/>
-			first=1<br/>
-			exec=$1<br/>
-			restvar="["<br/>
+	first=1<br/>
+	exec=$1<br/>
+	restvar="["<br/>
 <br/>
-			shift<br/>
-			for var in "$@"<br/>
-			do<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;if [ $first -eq 1]; then<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;restvar="$restvar'$var'"<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;else<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;restvar="$restvar,'$var'"<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;fi<br/>
-			&nbsp;&nbsp;&nbsp;&nbsp;first=0<br/>
-			done<br/>
-			restvar="$restvar]"<br/>
-<br/>
-			./gradlew runRobot -ProbotExec=$exec -ProbotArguments=$restvar<br/>
+	shift<br/>
+	for var in "$@"<br/>
+	do<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;if [ $first -eq 1]; then<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;restvar="$restvar'$var'"<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;else<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;restvar="$restvar,'$var'"<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;fi<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;first=0<br/>
+	done<br/>
+	restvar="$restvar]"<br/><br/>
+	./gradlew runRobot -ProbotExec=$exec -ProbotArguments=$restvar<br/>
 </code>
 
-		It is now possible to run tests with the script above: create Robot		launch configuration and set executable file at __Executor__ tab		and launch the tests as depicted on images below.	
+	It is now possible to run tests with the script above: create Robot	launch configuration and set executable file at __Executor__ tab	and launch the tests as depicted on images below.	
 
 ![](images/gradle_win.png)
 
