@@ -78,14 +78,14 @@ __Python script example:__
 <code>
 	import sys<br/>
 	from io import StringIO<br/>
-	from subpro<br/>cess import Popen, PIPE<br><br/>
+	from subprocess import Popen, PIPE<br/><br/>
 	print('##########')<br/>
 	print('Running Robot tests via script!')<br/>
 	print('##########')<br/>
 	sys.stdout.flush()<br/><br/>
 	execution = Popen(sys.argv[1:])<br/>
 	execution.communicate()
-	</br></code>
+	</code>
 
 Save code from above into `` my_script.py `` file, then at __Executor__ tab	of desired launch configuration browse your computer for __python.exe__ and set it in	__executable file__ field and pass the location to `` my_script.py `` inside	__arguments field__.	
 
